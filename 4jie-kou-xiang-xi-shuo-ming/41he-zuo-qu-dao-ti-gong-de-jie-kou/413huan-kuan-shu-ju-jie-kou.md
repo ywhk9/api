@@ -48,7 +48,7 @@
 | repay\_time | Long | 是 | 应还日期 |
 | repay\_amount | double | 是 | 当期还款金额 |
 | bill\_status | Int | 是 | 账单状态1未到期;2已还款;3逾期 |
-| pay\_rype | Int | 是 | 还款方式类型 1=主动还款；2=跳转H5；4=银行代扣；5=同时支持主动还款和银行代扣 |
+| pay\_type | Int | 是 | 还款方式类型 1=主动还款；2=跳转H5；4=银行代扣；5=同时支持主动还款和银行代扣 |
 | repay\_success\_time | Long | 是 | 还款成功时间 |
 | can\_repay\_time | Long | 是 | 当期最早可以还款的时间 |
 | is\_able\_defer | Int | 否 | 此参数仅在支持展期时传递，0：不支持 1：支持 |
